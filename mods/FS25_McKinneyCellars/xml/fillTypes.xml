@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+    
+
+    <fillTypes>
+        <fillType name="MEAD" title="$l10n_fillType_mead" showOnPriceTable="true" isPalletType="true">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="38"/>
+            <economy pricePerLiter="1.4">
+                <factors>
+                    <factor period="1"  value="0.94" />
+                    <factor period="2"  value="0.94" />
+                    <factor period="3"  value="0.96" />
+                    <factor period="4"  value="1.01" />
+                    <factor period="5"  value="1.01" />
+                    <factor period="6"  value="1.05" />
+                    <factor period="7"  value="1.04" />
+                    <factor period="8"  value="1.05" />
+                    <factor period="9"  value="1.04" />
+                    <factor period="10" value="1.02" />
+                    <factor period="11" value="1.01" />
+                    <factor period="12" value="0.97" />
+                </factors>
+            </economy>
+            <image      hud     ="textures/hud_meadPallet.dds" />
+            <pallet     filename="pallets/meadPallet/meadPallet.xml" />
+        </fillType>
+        <fillType name="WINE" title="$l10n_fillType_wine" showOnPriceTable="true" isPalletType="true">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="38"/>
+            <economy pricePerLiter="1.4">
+                <factors>
+                    <factor period="1"  value="0.94" />
+                    <factor period="2"  value="0.94" />
+                    <factor period="3"  value="0.96" />
+                    <factor period="4"  value="1.01" />
+                    <factor period="5"  value="1.01" />
+                    <factor period="6"  value="1.05" />
+                    <factor period="7"  value="1.04" />
+                    <factor period="8"  value="1.05" />
+                    <factor period="9"  value="1.04" />
+                    <factor period="10" value="1.02" />
+                    <factor period="11" value="1.01" />
+                    <factor period="12" value="0.97" />
+                </factors>
+            </economy>
+            <image      hud     ="textures/hud_winePallet.dds" />
+            <pallet     filename="pallets/winePallet/winePallet.xml" />
+        </fillType>
+        <fillType name="STRAWBERRYMELOMEL" title="$l10n_fillType_strawberryMelomel" showOnPriceTable="true" isPalletType="true">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="38"/>
+            <economy pricePerLiter="1.4">
+                <factors>
+                    <factor period="1"  value="0.94" />
+                    <factor period="2"  value="0.94" />
+                    <factor period="3"  value="0.96" />
+                    <factor period="4"  value="1.01" />
+                    <factor period="5"  value="1.01" />
+                    <factor period="6"  value="1.05" />
+                    <factor period="7"  value="1.04" />
+                    <factor period="8"  value="1.05" />
+                    <factor period="9"  value="1.04" />
+                    <factor period="10" value="1.02" />
+                    <factor period="11" value="1.01" />
+                    <factor period="12" value="0.97" />
+                </factors>
+            </economy>
+            <image      hud     ="textures/hud_strawberryMelomelPallet.dds" />
+            <pallet     filename="pallets/strawberryMelomelPallet/strawberryMelomelPallet.xml" />
+        </fillType>	
+        <fillType name="YEAST" title="$l10n_fillType_yeast" showOnPriceTable="FALSE" isPalletType="true">
+            <physics massPerLiter="0.25" maxPhysicalSurfaceAngle="38"/>
+            <economy pricePerLiter="1.1">
+                <factors>
+                    <factor period="1"  value="1.00" />
+                    <factor period="2"  value="1.07" />
+                    <factor period="3"  value="0.99" />
+                    <factor period="4"  value="0.94" />
+                    <factor period="5"  value="0.85" />
+                    <factor period="6"  value="0.81" />
+                    <factor period="7"  value="0.86" />
+                    <factor period="8"  value="0.99" />
+                    <factor period="9"  value="1.08" />
+                    <factor period="10" value="1.13" />
+                    <factor period="11" value="1.21" />
+                    <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+            <image      hud     ="textures/hud_yeast.dds" />
+            <pallet     filename="pallets/yeastPallet/yeastPallet.xml" />
+        </fillType>		
+    </fillTypes>
+
+    <fillTypeCategories>        
+        <fillTypeCategory name="PRODUCT">MEAD WINE STRAWBERRYMELOMEL YEAST</fillTypeCategory>
+		<fillTypeCategory name="SELLINGSTATION_PRODUCTSFOOD">MEAD WINE STRAWBERRYMELOMEL</fillTypeCategory>
+    </fillTypeCategories>
+
+    <fillTypeSounds>        
+    </fillTypeSounds>
+</map>

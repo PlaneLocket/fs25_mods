@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92">
+    <author>planelocket</author>
+    <version>1.0.0.0</version>
+    <iconFilename>icon_mckinney_cellars.dds</iconFilename>
+
+    <title>
+        <en>McKinney Cellars</en>
+    </title>
+	<description>
+		<en><![CDATA[Sample Ingame Mod
+➣ Price: $
+➣ Power: HP
+➣ Max Speed:KMH
+]]></en>	
+	</description>
+	<multiplayer supported="true"/>
+	<fillTypes filename="xml/fillTypes.xml" />
+    <storeItems>
+        <storeItem xmlFilename="xml/mckinneycellars.xml"/>
+		<storeItem xmlFilename="pallets/meadPallet/meadPallet.xml"/>
+		<storeItem xmlFilename="pallets/winePallet/winePallet.xml"/>
+		<storeItem xmlFilename="pallets/strawberryMelomelPallet/strawberryMelomelPallet.xml"/>
+		<storeItem xmlFilename="pallets/yeastPallet/yeastPallet.xml"/>
+		<storeItem xmlFilename="pallets/yeastPallet/multiPurchasePallet_yeastPallet.xml"/>
+    </storeItems>
+	<l10n>
+		<text name="shopItem_cellars">
+			<en>McKinney Cellars</en>
+			<de>McKinney Cellars</de>
+		</text>
+		<text name="function_winery">
+			<en>With the cellar you can produce Wine, Mead and Strawberry-Melomel</en>
+			<de>Mit dem Weingut kannst du Wein, Honigwein und Erdbeer-Melomel produzieren</de>
+		</text>
+		<text name="shopItem_winery">
+			<en>Winery</en>
+			<de>Weingut</de>
+		</text>
+		<text name="storeItem_meadPallet">
+			<en>Mead Pallet</en>
+			<de>Honigwein Pallette</de>
+		</text>
+		<text name="storeItem_winePallet">
+			<en>Wine Pallet</en>
+			<de>Wein Pallette</de>
+		</text>
+		<text name="fillType_mead">
+			<en>McKinney Mead</en>
+			<de>Honigwein</de>
+		</text>
+		<text name="fillType_wine">
+			<en>McKinney Red Wine</en>
+			<de>Wein</de>
+		</text>
+		<text name="fillType_strawberryMelomel">
+			<en>McKinney Strawberry-Melomel</en>
+			<de>Erdbeer-Melomel</de>
+		</text>
+		<text name="storeItem_strawberryMelomelPallet">
+			<en>Strawberry-Melomel Pallet</en>
+			<de>Erdbeer-Melomel Pallette</de>
+		</text>
+		<text name="fillType_yeast">
+            <en>Yeast</en>
+            <de>Hefe</de>
+        </text>
+		<text name="storeItem_yeastPallet">
+            <en>Yeast pallet</en>
+            <de>Hefepalette</de>
+        </text>
+		<text name="store_yeastPallet">
+            <en>Yeast pallet</en>
+            <de>Hefepalette</de>
+        </text>		
+       <text name="action_lightSwitchON">
+            <en>Lights on</en>
+            <de>Licht einschalten</de>
+            <pl>Włącz światło</pl>
+        </text>	
+        <text name="action_lightSwitchOFF">
+            <en>Lights off</en>
+            <de>Licht ausschalten</de>
+            <pl>Wyłącz światło</pl>
+        </text>
+	</l10n>
+</modDesc>
+
