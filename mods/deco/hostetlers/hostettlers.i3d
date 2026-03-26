@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="hostettlers" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="i3dConverter" version="1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="textures/hostetlers_diffuse.png"/>
+    <File fileId="2" filename="textures/hostetlers_normal.png"/>
+    <File fileId="3" filename="textures/hostetlers_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="default" materialId="2" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+    <Material name="hostetlersMaterial" materialId="1" emissiveColor="1 1 1 1">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="hostettlers.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <Shape name="hostettlers" shapeId="1" nodeId="7" castsShadows="true" receiveShadows="true" materialIds="1"/>
+    <Shape name="hostettlers_LOD1" rotation="-9.33467e-06 -0 0" shapeId="2" visibility="false" nodeId="8" castsShadows="true" receiveShadows="true" materialIds="1"/>
+    <Shape name="occluderMesh" translation="11.3354 -0.543011 0.673107" shapeId="3" nodeId="9" castsShadows="true" receiveShadows="true" materialIds="2"/>
+  </Scene>
+
+</i3D>
